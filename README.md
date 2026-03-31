@@ -10,18 +10,18 @@ Rather than focusing only on model accuracy, this project emphasizes:
 
 ---
 
-## 🚀 What Does SentinelPay Do?
+## What Does SentinelPay Do?
 
 SentinelPay assesses whether a financial transaction is potentially fraudulent by analyzing behavioral and contextual signals.
 
-### 🔹 Input
+### Input
 Users provide transaction-related details such as:
 - Transaction amount
 - Time since last transaction
 - Transaction frequency
 - Merchant risk score
 
-### 🔹 Output
+### Output
 The system returns:
 - **Fraud Probability Score** – numerical likelihood of fraud
 - **Risk Classification** – `Low`, `Medium`, or `High`
@@ -30,7 +30,7 @@ This project simulates how fraud detection models are deployed, consumed, and ex
 
 ---
 
-## 🧩 System Architecture Overview
+## System Architecture Overview
 
 1. User / Transaction Input  
 2. Frontend Dashboard – Streamlit-based UI  
@@ -41,7 +41,7 @@ This project simulates how fraud detection models are deployed, consumed, and ex
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 SentinelPay/
@@ -72,7 +72,7 @@ SentinelPay/
 ```
 ---
 
-## 🤖 Machine Learning Overview
+## Machine Learning Overview
 
 ### Dataset
 - Credit card transaction dataset with severe class imbalance
@@ -93,7 +93,7 @@ SentinelPay/
 
 ---
 
-## 🔌 Backend API (FastAPI)
+## Backend API (FastAPI)
 
 ### Available Endpoints
 - `GET /` – Health check
@@ -111,7 +111,7 @@ SentinelPay/
 
 ---
 
-## 📊 Frontend Dashboard (Streamlit)
+## Frontend Dashboard (Streamlit)
 
 The Streamlit dashboard allows users to:
 - Enter transaction details
@@ -120,7 +120,7 @@ The Streamlit dashboard allows users to:
 
 ---
 
-## 🔗 Blockchain Audit Layer (Design Intent)
+## Blockchain Audit Layer (Design Intent)
 
 To support compliance and trust, SentinelPay proposes a blockchain-based audit layer.
 
@@ -137,7 +137,7 @@ This layer is documented but not deployed, reflecting realistic FinTech adoption
 
 ---
 
-## ⚙️ How to Run the Project Locally
+## How to Run the Project Locally
 
 ### Step 1: Activate Virtual Environment
 ```
@@ -159,7 +159,7 @@ streamlit run frontend/app.py
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - Python
 - FastAPI
 - Streamlit
@@ -170,16 +170,6 @@ streamlit run frontend/app.py
 
 ---
 
-## 🎯 Skills Demonstrated
-- Applied Machine Learning
-- Explainable AI (XAI)
-- Backend API Development
-- Frontend Integration
-- End-to-End System Design
-- FinTech Compliance Awareness
-- Production-Style Project Structuring
-
----
 
 ## 🔮 Future Enhancements
 - Replace heuristic logic with fully trained ML model in backend
